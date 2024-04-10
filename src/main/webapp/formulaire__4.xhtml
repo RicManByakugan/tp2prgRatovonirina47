@@ -9,10 +9,8 @@
 
         <ui:composition template="./WEB-INF/templates/template_defaut.xhtml">
 
-            <ui:define name="top">
-                TP PRG > Exercice 4
-            </ui:define>
-            
+            <ui:param name="titre" value="Exercice 4"/>
+
             <ui:define name="metadata">
                 <f:metadata>
                     <f:viewParam name="nb" value="#{bean3.nombre}"/>
